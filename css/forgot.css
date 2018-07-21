@@ -1,0 +1,185 @@
+/* default margin set css start*/
+
+*{
+	margin: 0;
+}
+/* default margin set css end*/
+
+
+body{
+	background: url('../img/bg/bg2.jpg') no-repeat;
+	font-family: 'Marck Script', cursive;
+	background-size:  cover;
+}
+/* default container css*/
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+/* header-login css start*/
+.header-login{
+    width: 100%;
+    float: left;
+    margin: 0;
+    background-color: #4b515d;
+    box-shadow: 0px 1px 4px #999aa5;
+}
+
+.header-login .header-left{
+	width: 20%;
+	float: left;
+}
+.header-login .header-left .brand{
+	width: 100%;
+	height: 80px;
+	margin-top: 15px;
+	display:block;
+
+}
+.header-login .header-right{
+	width: 80%;
+	float:left;
+	padding: 25px 0 0 0;
+}
+.header-login .header-right form{
+	float: right;
+}
+.header-login .header-right form .form-control{
+	padding: 3px 6px;
+    border: 2px solid;
+    border-color: #ddd;
+    border-radius: 15px;
+}
+.header-login .header-right form .submit{
+	border-radius: 15px;
+    padding: 3px 15px;
+    border: 2px solid #cb3445;
+    background-color: #ae4f4f;
+    color: #fff;
+}
+
+.header-login .header-right p{
+	display: block;
+    float: right;
+    color: #fff;
+    clear: both;
+    margin-right: 135px;
+    padding-top: 5px;
+}
+.header-login .header-right p::before{
+	display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #2578df;
+    width: 50px;
+}
+.header-login .header-right p::after{
+	display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #2578df;
+    width: 50px;
+}
+.header-login .header-right .header-social{
+	 
+    float: right;
+    margin: 27px -190px 0 0;	
+}
+.header-login .header-right .header-social li{
+    float: left;
+    padding: 5px;
+    list-style: none;
+}
+.header-login .header-right .header-social li a{
+   	text-decoration: none;
+}
+.header-login .header-right .header-social li a img{
+   	width: 25px;
+    height: 25px;
+}
+/* header-login css end*/
+
+/* middle-section css start*/
+.middle-section{
+	width: 100%;
+	float: left;
+	margin: 5% auto;
+}
+
+
+
+/* forgot form css start*/
+.middle-section .forgot{
+    width: 40%;
+    margin: 0 auto
+}
+.middle-section .forgot form{
+	width: 450px;
+	float: left;
+	background-color: #7d656566;
+}
+
+.middle-section .forgot form img{
+	width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+
+}
+.middle-section .forgot form h2{
+    text-align: center;
+    padding: 5px 0 10px 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+}
+.middle-section .forgot form p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+}
+.middle-section .forgot form a{
+	color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.middle-section .forgot form .form-control{
+    padding: 8px 6px;
+    border: 2px solid;
+    border-color: #ddd;
+    border-radius: 5px;
+    width: 91%;
+    margin: 10px 0 0 10px;
+}
+.middle-section .forgot form .forgot-btn{	
+    padding: 3px 15px;
+    border: 2px solid #6f4245;
+    background-color: #5e0815;
+    color: #fff;
+    border-radius: 15px;
+    margin: 5% auto;
+    display: block;
+}
+.
+/* forgot form css end*/
+
+
+/* middle-section css end*/
+
+
+
+
+

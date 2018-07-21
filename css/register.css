@@ -1,0 +1,94 @@
+/* default margin set css start*/
+
+*{
+	margin: 0;
+}
+/* default margin set css end*/
+
+
+body{
+	background: url('../img/bg/bg3.jpg') no-repeat;
+	font-family: 'Lobster', cursive;
+	background-size:  cover;
+}
+/* default container css*/
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+
+/* middle-section css start*/
+.middle-section{
+	width: 100%;
+	float: left;
+	margin: 5% auto;
+}
+
+
+/* register form css start*/
+.middle-section .register{
+	width: 40%;
+    margin: 0 auto;
+}
+.middle-section .register form{
+	width: 400px;
+	float: left;
+	background-color: #7d656566;
+}
+
+.middle-section .register form img{
+	width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+
+}
+.middle-section .register form h2{
+	text-align: center;
+    padding: 5px 0 10px 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+}
+.middle-section .register form a{
+	color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.middle-section .register form .form-control{
+    padding: 8px 6px;
+    border: 2px solid;
+    border-color: #ddd;
+    border-radius: 5px;
+    width: 91%;
+    margin: 10px 0 0 10px;
+}
+.middle-section .register form .d415{
+    width: 41.5%;
+}
+.middle-section .register form .register-btn{	
+    padding: 3px 15px;
+    border: 2px solid #cfff66;
+    background-color: #2f935a;
+    color: #fff;
+    border-radius: 15px;
+    margin: 5% auto;
+    display: block;
+}
+.login-link{
+	margin-top: -35px;
+    float: right;
+}
+/* register form css end*/
+
+
+/* middle-section css end*/
+
+
+
+
+
+
