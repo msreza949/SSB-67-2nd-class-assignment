@@ -151,6 +151,7 @@ body{
 	width: 400px;
 	float: left;
 	background-color: #7d656566;
+	border-radius: 10px;
 }
 
 .middle-section .signup form img{
