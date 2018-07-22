@@ -36,6 +36,7 @@ body{
 	width: 400px;
 	float: left;
 	background-color: #21a889f0;
+	border-radius: 10px;
 }
 
 .middle-section .login form img{
